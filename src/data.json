@@ -1,1 +1,27 @@
-[]
+{
+  "donors": [
+    {
+      "name": "Jane Doe & Family",
+      "message": "So happy to contribute to such a wonderful cause. It's amazing to see the community come together!",
+      "imageUrl": "/images/donor-01.jpg"
+    },
+    {
+      "name": "The Corner Bookstore",
+      "message": "We had boxes of children's books looking for a new home. Thank you for making sure they found one.",
+      "imageUrl": "/images/donor-02.jpg"
+    },
+    {
+      "name": "Anonymous",
+      "message": "A small act of kindness can make a world of difference. Keep up the great work.",
+      "imageUrl": "/images/donor-03.jpg"
+    }
+  ],
+  "destinations": [
+    {
+      "siteName": "Greenwood Community Shelter",
+      "imageUrl": "/images/destination-01.jpg",
+      "history": "Established in 1985, Greenwood has been a pillar of the community, providing shelter and support for families in need.",
+      "contactInfo": "To volunteer or donate, please visit greenwood.org or call them at 555-123-4567."
+    }
+  ]
+}

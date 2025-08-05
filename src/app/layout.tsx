@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The HUMA-N Project Scrapbook",
-  description: "A Showcase of all the lovely Human Beings who donated during the month-long donation drive.",
+  title: "The HUMA-N Project Donation Drive Scrapbook",
+  description: "A showcase of all the people who donated during our drive.",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-700">{children}</body>
+      <body className="bg-base-background text-base-text">{children}</body>
     </html>
   );
 }
