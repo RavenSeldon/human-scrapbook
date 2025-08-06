@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex-grow container mx-auto py-10 px-6">
-        <h2 className="text-3xl font-bold text-center text-primary-accent mb-12">
+        <h2 className="text-3xl font-bold text-center text-secondary-accent mb-12">
           Our Community of Generous Donators
         </h2>
         {/* Dynamic Grid for Scrapbook Entries */}
