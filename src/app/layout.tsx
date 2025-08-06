@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "The HUMA-N Project Donation Drive Scrapbook",
-  description: "A showcase of all the people who donated during our drive.",
+  description: "A showcase of all the amazing Human Beings who donated during our month-long drive.",
 };
 
 export default function RootLayout({
@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-primary-accent text-grey-200">{children}</body>
+      <body className="bg-cream text-charcoal font-body antialiased">
+        {children}
+      </body>
     </html>
   );
 }

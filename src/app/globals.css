@@ -1,3 +1,120 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom organic elements */
+@layer components {
+  .organic-shape-1 {
+    clip-path: ellipse(80% 60% at 50% 40%);
+  }
+
+  .organic-shape-2 {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  }
+
+  .leaf-shape {
+    clip-path: ellipse(50% 80% at 50% 50%);
+  }
+
+  .botanical-border {
+    position: relative;
+  }
+
+  .botanical-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #3a9b3a, #a90dbd, #6b786b, #de7ee6);
+    border-radius: inherit;
+    z-index: -1;
+    background-size: 400% 400%;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nature-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(240, 249, 240, 0.8) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(58, 155, 58, 0.1);
+    box-shadow:
+      0 8px 32px rgba(42, 78, 42, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .floating-element {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .floating-element:nth-child(2n) {
+    animation-delay: -2s;
+  }
+
+  .floating-element:nth-child(3n) {
+    animation-delay: -4s;
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f9f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3a9b3a, #a90dbd);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #5cb85c, #de7ee6);
+}
+
+/* Organic text selection */
+::selection {
+  background: rgba(222, 126, 230, 0.3);
+  color: #2c3e2d;
+}
+
+/* Custom focus styles */
+.focus-nature:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(58, 155, 58, 0.3);
+}
+
+/* Breathing animation for important elements */
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+.breathe {
+  animation: breathe 4s ease-in-out infinite;
+}
+
+/* Organic hover effects */
+.hover-organic {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-organic:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 20px 40px rgba(42, 78, 42, 0.15),
+    0 8px 16px rgba(42, 78, 42, 0.1);
+}
