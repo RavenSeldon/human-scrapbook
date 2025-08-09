@@ -190,6 +190,7 @@ export default function Home() {
               <DestinationGallery
                 key={index}
                 siteName={dest.siteName}
+                siteUrl={dest.siteUrl}
                 imageUrls={dest.imageUrls}
                 history={dest.history}
                 contactInfo={dest.contactInfo}

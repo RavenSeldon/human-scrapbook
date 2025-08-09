@@ -23,12 +23,12 @@ const AboutPage = () => {
           </h1>
           <div className="space-y-6 text-sage-800 font-body">
             <p>
-              The HUMA-N Project's donation drive was born from three simple ideas: that
+              The {"HUMA-N Project's"} donation drive was born from three simple ideas: that
               <li>
                 doing good can feel good,
               </li>
               <li>
-                it doesn't have to be hard to give back, and
+                it {"doesn't"} have to be hard to give back, and
               </li>
               <li>
                 it feels fundamentally human to give in fellowship with community.

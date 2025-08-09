@@ -52,6 +52,7 @@ const ScrapbookEntry: React.FC<ScrapbookEntryProps> = ({ name, message, imageUrl
             <div className="relative">
               <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-lotus-300 to-forest-300 rounded-full opacity-60"></div>
               <blockquote className="text-sage-700 italic leading-relaxed font-body text-lg pl-4">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "{message}"
               </blockquote>
             </div>

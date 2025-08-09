@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-lg text-charcoal font-body leading-relaxed mb-4">
-              The most heartfelt and abundant outpouring of gratitude to all who contributed to this donation drive's success.
+              The most heartfelt and abundant outpouring of gratitude to all who contributed to the success of this donation drive.
               You all have showcased just how much good can be done when people work together and leverage the amazing community we have right here in Vancouver.
             </p>
             <p className="text-sage-600 font-medium leading-relaxed mb-4">
