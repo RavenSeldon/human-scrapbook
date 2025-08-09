@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar"
 
 export const metadata: Metadata = {
   title: "The HUMA-N Project Donation Drive Scrapbook",
@@ -13,7 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-cream text-charcoal font-body antialiased">
+      <body className="text-charcoal font-body antialiased">
+        <Navbar />
         {children}
       </body>
     </html>

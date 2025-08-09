@@ -1,27 +1,280 @@
 {
   "donors": [
     {
-      "name": "Jane Doe & Family",
-      "message": "So happy to contribute to such a wonderful cause. It's amazing to see the community come together!",
-      "imageUrl": "/images/donor-01.jpg"
+      "name": "Happy",
+      "message": "The lovely human whose generous donations kicked off this entire project! Thank you so much to Happy and your work place for inspiring me with your spirit of giving. Thank you to the folks at your workplace who also contributed to donations - these went to the Evelyne Saller Centre!",
+      "imageUrl": "/images/donators/happy.jpg"
     },
     {
-      "name": "The Corner Bookstore",
-      "message": "We had boxes of children's books looking for a new home. Thank you for making sure they found one.",
-      "imageUrl": "/images/donor-02.jpg"
+      "name": "Elaine",
+      "message": "Thank you so much Elaine for your wonderful book and clothing donations! Also the first person to donate a book \uD83D\uDCD9. Your clothes went to Union Gospel Mission's Women and Family's Shelter, and the Neuroscience book was taken to the Guelph Park community library :)",
+      "imageUrl": "/images/donators/elaine.jpg"
     },
     {
-      "name": "Anonymous",
-      "message": "A small act of kindness can make a world of difference. Keep up the great work.",
-      "imageUrl": "/images/donor-03.jpg"
+      "name": "Sofia",
+      "message": "A huge shout-out to the ever talented Sofia, artist extraordinaire with a massive heart to boot. Thank you for the deep, open conversations. Thank you even more for giving your time, your company, and your bag of clothing that ended up in the hands of women in need at UGM's Women and Family's Shelter \uD83C\uDF89",
+      "imageUrl": "/images/donators/sofia.jpg"
+    },
+    {
+      "name": "Jake",
+      "message": "An exceptional human being! Jake, despite being 'on the road' and only just transiently passing through Vancouver, was kind enough to part with a few clothing items - donated right out of his suitcase. A gentleman, scholar, and neo-philosopher in the making; thank you for your company and generosity. These donations went right to the Evelyne Saller Centre",
+      "imageUrl": "/images/donators/jake.jpg"
+    },
+    {
+      "name": "Sam",
+      "message": "Big Dog Sam! As he sets his aims on dominating the competitive (if not waning) landscape of Silicon Valley, this entrepreneur-by-day, animal-by-night still makes time to enrich his local community! Thank you for your donation of men's clothes that went to Evelyne Saller Centre.",
+      "imageUrl": "/images/donators/sam.jpg"
+    },
+    {
+      "name": "Tolu",
+      "message": "Thanks so much to Tolu, who offered her time and vehicle to help facilitate some item drop-offs! If it weren't for her and a few other key contributors, this donation drive would not have been the success it was \uD83E\uDEF0",
+      "imageUrl": "/images/donators/tolu.jpg"
+    },
+    {
+      "name": "Dasan",
+      "message": "A huge thanks to Dasan, who alongside Tiff were kind enough to drop off a bag of donations during their busy Saturday morning. These donations were delivered to Union Gospel Mission :)",
+      "imageUrl": "/images/donators/dasan.jpg"
+    },
+    {
+      "name": "Tiff",
+      "message": "A huge thanks to Tiff, who alongside Dasan were kind enough to drop off a bag of donations during their busy Saturday morning. These donations were delivered to Union Gospel Mission :)",
+      "imageUrl": "/images/donators/tiff.jpg"
+    },
+    {
+      "name": "Johnny",
+      "message": "The ever elusive Johnny, taking a break from his arduous schedule of hustling and grinding to impart some wisdom, reminisce about the 'Good Ol Days' and drop off two book donations that made their way to the Tea Tree Park Community Library!",
+      "imageUrl": "/images/donators/johnny.jpg"
+    },
+    {
+      "name": "Ella",
+      "message": "A special thanks to Ella, who was kind enough to donate a raunchy and endlessly entertaining book that went to the Ontario and 10th Community Library. An utter style queen passing on some inspiration to the community 💅",
+      "imageUrl": "/images/donators/ella.jpg"
+    },
+    {
+      "name": "Chenghao",
+      "message": "Despite broken feet and bruised bodies, Chenghao displays his strength of character and resilience by rising to the call of charity! Thank you so much to this awesome human being - your donations were able to go to Union Gospel Mission!",
+      "imageUrl": "/images/donators/chenghao.jpg"
+    },
+    {
+      "name": "Sasha and Ella",
+      "message": "A massive thanks to Sasha and Ella, the dynamic donating duo, who really set the bar for how much two people can give! Your books were taken to the Vancouver Public Library and donated to Bookmarks, the used book wing of the VPL. We were able to get your clothes both to Watari and to UGM's Women and Family's Shelter. The impact of your generosity is indispensable!",
+      "imageUrl": "/images/donators/sasha_ella.jpg"
+    },
+    {
+      "name": "Esther",
+      "message": "Thanks so much to Esther, the inspiration for the launch of the pick-up/drop-off donation option! We were able to meet up on a later date to take this photo and engage in some beautiful conversations about the healing power of community and therapy, all over some delicious ramen \uD83D\uDE0B. Your donations went straight to the UGM Women and Family's Shelter.",
+      "imageUrl": "/images/donators/esther.jpg"
+    },
+    {
+      "name": "Elijah",
+      "message": "An artist, leader, spiritually infused human being with the heart of a Lion! Thank you, Elijah, for your consistent presence and strength of character. A huge shout-out to the massive donation of men's clothes - We were able to get this over to Union Gospel Mission ",
+      "imageUrl": "/images/donators/elijah.jpg"
+    },
+    {
+      "name": "Safwaan",
+      "message": "This dude's wicked smaht...and a real giver. Thank you so much Safwan for your generous donations of clothes which were delivered to Insite Supervised Injection Site - and thank you for your eager desire to give even more!",
+      "imageUrl": "/images/donators/safwan.jpg"
+    },
+    {
+      "name": "Pearl",
+      "message": "A massive thank you to Pearl! This human is more priceless than any precious gem. Not only was she kind enough to swing by with a phat bag of donations, she also volunteered her Saturday morning helping to drop off the donations we received at the midway point of our drive! Your awesome clothing donations were taken to Union Gospel Mission's Women and Family's Shelter.",
+      "imageUrl": "/images/donators/pearl.jpg"
+    },
+    {
+      "name": "Me",
+      "message": "Quick little self feature of me dropping off some donations at the halfway point of the drive! UwU",
+      "imageUrl": "/images/donators/insite.jpg"
+    },
+    {
+      "name": "Sholema",
+      "message": "A heartfelt shout-out to the Nigerian Queen, Onosholema, and her massive bag of women's clothes! Thank you for donating not only your material belongings, but your time and company.",
+      "imageUrl": "/images/donators/onosholema.jpg"
+    },
+    {
+      "name": "Darby",
+      "message": "Thank you so much to the wonderful and oh-so-talented Darby, for serving awesome vibes alongside their donation of two bags of clothes! Your gently used and cherished clothing items were given to Woodwards Community Housing!",
+      "imageUrl": "/images/donators/darby.jpg"
+    },
+    {
+      "name": "Leo",
+      "message": "A huge shout-out to (King) Leo, a real and down-to-earth human. Leader of men, slayer of dragons, and donator of men's clothes that were lovingly given to the Vancouver Downtown Community Court.",
+      "imageUrl": "/images/donators/leo.jpg"
+    },
+    {
+      "name": "Brad",
+      "message": "Thanks to this thoughtful and compassionate human being. Brad's perseverance and optimism is not only infectious, it's downright inspirational. Thank you also to your massive bag of book donations, all of which were scattered across the Mount Pleasant Little Library Complex \uD83D\uDCDA",
+      "imageUrl": "/images/donators/brad.jpg"
+    },
+    {
+      "name": "Sage",
+      "message": "A massive thank you to Sage, who offered her time and vehicle to help facilitate a big round of donation drop-offs! Because of her help and diligent efforts, we were able to get plentiful donations to UGM and Watari!",
+      "imageUrl": "/images/donators/sage.jpg"
+    },
+
+    {
+      "name": "Damir",
+      "message": "Here's to a real one. Thank you, my friend, for your words of wisdom, your grounded presence, and your large amount of men's clothing donations that ended up going into the hands of the folks at Watari and First United Community Help Desk \uD83D\uDE4F",
+      "imageUrl": "/images/donators/damir.jpg"
+    },
+    {
+      "name": "Judy",
+      "message": "Thanks so much to my amazingly hardworking coworker, Judy, who blew me away with the amount of donations she had for this initiative! Luckily we caught her at the right time in her summer cleaning cycle. The shoes, and mountain of clothes you provided were donated to both the Osborn Shelter and to Insite Supervised Injection Site :)",
+      "imageUrl": "/images/donators/judy.jpg"
+    },
+    {
+      "name": "Jennifer",
+      "message": "A huge, heartfelt thank you to Jennifer! You were the one person who reached out without knowing me previously, just out of the kindness of your heart and from an eagerness to give. Your amazing women's donations were given to the Molson Overdose Prevention Site!",
+      "imageUrl": "/images/donators/jennifer.jpg"
+    },
+    {
+      "name": "Kevin (Anonymous)",
+      "message": "Thank you for your bagged cloth donations that were sent in to Watari :)",
+      "imageUrl": "/images/donators/kevin.jpg"
+    },
+    {
+      "name": "Alex (Anonymous)",
+      "message": "Thank you for your generous donations which went to the Vancouver Downtown Community Court",
+      "imageUrl": "/images/donators/alex.jpg"
+    },
+    {
+      "name": "Minji (Anonymous)",
+      "message": "Thank you for your donations! We were able to get the clothes to Downtown Community Court, some of the toys to the SPCA, and some miscellaneous items to Foundry BC!",
+      "imageUrl": "/images/donators/minji.jpg"
     }
+
   ],
   "destinations": [
     {
-      "siteName": "Greenwood Community Shelter",
-      "imageUrl": "/images/destination-01.jpg",
-      "history": "Established in 1985, Greenwood has been a pillar of the community, providing shelter and support for families in need.",
-      "contactInfo": "To volunteer or donate, please visit greenwood.org or call them at 555-123-4567."
+      "siteName": "Evelyne Saller Centre",
+      "siteUrl": "https://vancouver.ca/parks-recreation-culture/evelyne-saller-centre.aspx",
+      "imageUrls": [
+          "/images/destinations/ev-1.jpg",
+          "/images/destinations/ev-2.jpg",
+          "/images/destinations/ev-3.jpg"
+      ],
+      "history": "The Evelyne Saller Centre provides a variety of services to low income and at risk adults living in the Downtown Eastside. The centre supports the physical, mental, and social well-being of community members to enhance their quality of life.",
+      "contactInfo": "A huge thanks to our ESC contact, <span class='text-forest-200'>Mark H.</span>, who was able to help facilitate the drop-offs. For general inquiries, please reach out to <span class='text-lotus-200'> evelynesallercentre@vancouver.ca</span> or call (604)-665-3075. For volunteering opportunities, please email <span class='text-lotus-200'>esc.volunteerprogram@vancouver.ca</span>"
+    },
+    {
+      "siteName": "Union Gospel Mission",
+      "siteUrl": "https://ugm.ca",
+      "imageUrls": [
+          "/images/destinations/ugm-1.png",
+          "/images/destinations/ugm-2.jpg",
+          "/images/destinations/ugm-3.jpg",
+          "/images/destinations/ugm-4.jpg"
+      ],
+      "history": "UGM offers care in Vancouver’s Downtown Eastside, across Metro Vancouver and the Fraser Valley, and in Greater Victoria. Our 11 locations include drop-in centres, shelter, live-in recovery programs, social enterprise stores, and more.",
+      "contactInfo": "A huge thanks to our UGM contact, <span class='text-forest-200'>Mark C.</span>, who was able to help facilitate the drop-offs. For general inquiries, please check out <a href='https://ugm.ca' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>UGM's website</a> or call (604)-253-3323. For volunteering opportunities, please check out <a href='https://ugm.ca/volunteer' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their volunteer page</a>."
+    },
+    {
+      "siteName": "First United",
+      "siteUrl": "https://firstunited.ca",
+      "imageUrls": [
+          "/images/destinations/fu-1.jpg",
+          "/images/destinations/fu-2.png",
+          "/images/destinations/fu-3.png",
+          "/images/destinations/fu-4.jpg"
+      ],
+      "history": "For the past 140 years, First United has had the goal of building better futures by responding to the most pressing needs of our community: providing essential services, community connection, and healing. They provide direct support to our neighbours in the Downtown Eastside and advocate for dignity, belonging, and justice for the community.",
+      "contactInfo": "A huge thanks to our two First United contacts, <span class='text-forest-200'>Nicholas A.</span> and <span class='text-forest-200'>Dara</span>, who was able to help facilitate the drop-offs. For general inquiries, please check out <a href='https://firstunited.ca/about-us' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their website</a> or reach out to (604)-681-8928. For volunteering opportunities, please email <span class='text-lotus-200'>volunteers@firstunited.ca</span> or check out <a href='https://firstunited.ca/how-you-help/volunteer' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their volunteer page</a>."
+    },
+    {
+      "siteName": "Watari",
+      "siteUrl": "https://watari.ca",
+      "imageUrls": [
+          "/images/destinations/wat-1.jpg",
+          "/images/destinations/wat-2.jpg",
+          "/images/destinations/wat-3.jpg"
+      ],
+      "history": "At the heart of Watari’s mission is the belief that diversity is integral to a caring community. Following this belief, Watari supports diverse communities, facilitates meaningful change, and provides a bridge to healthier possibilities through innovative, community driven and supportive programming. ",
+      "contactInfo": "A huge thanks to our Watari contact, <span class='text-forest-200'>Ciska</span>, who identified Watari's need for donations, and Tommy, who was able to help facilitate the drop-offs. For general inquiries, please check out <a href='https://watari.ca/contact-us' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their website</a> or call (604)-254-6995. For volunteering opportunities, you can use the same <a href='https://watari.ca/contact-us' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>contact portal</a>."
+    },
+    {
+      "siteName": "book'mark - Friends of the VPL Donations",
+      "siteUrl": "https://bookmarkstore.ca",
+      "imageUrls": [
+          "/images/destinations/bm-1.jpg",
+          "/images/destinations/bm-2.jpg",
+          "/images/destinations/bm-3.jpg",
+          "/images/destinations/bm-4.jpg"
+      ],
+      "history": "book'mark, The Library Store is part of Friends of the VPL, a charity dedicated to help support the Vancouver Public Library. Friends also promotes Used Book Sales, fundraising events, and offers volunteer opportunities. If you love the VPL as much as I do, book'mark is an excellent opportunity to support the library as an institution and to keep the joy of free, accessible reading alive!.",
+      "contactInfo": "To know more about Friends of the VPL and how you can become a member, donate, and volunteer, visit book'mark, The Library Store at VPL Central branch and chat with one of our amazing volunteers. You can also go to <a href='https://friendsofthevpl.ca' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their website</a>."
+    },
+    {
+      "siteName": "Vancouver Downtown Community Court",
+      "imageUrls": ["/images/destinations/dcc-1.jpg"],
+      "history": "Vancouver’s Downtown Community Court is a unique partnership between the Provincial Court of B.C., justice, health, social services agencies and community members working together to address complex crime issues in the downtown area.",
+      "contactInfo": "A huge thanks to <span class='text-forest-200'>Rex</span> from DCC, who identified the need for donations and was able to help facilitate the drop-offs. For general inquiries, please call (604)-660-8754."
+    },
+    {
+      "siteName": "Woodwards Community Housing",
+      "siteUrl": "https://www.phs.ca/locations/woodwards-community-housing/",
+      "imageUrls": [
+          "/images/destinations/wood-1.jpg",
+          "/images/destinations/wood-2.jpg",
+          "/images/destinations/wood-3.jpg"
+      ],
+      "history": "Located in the historic Woodwards development, Woodwards Community Housing is home to both clients of the Strathcona Community Mental Health Team and a diverse group of long-time Downtown Eastside residents",
+      "contactInfo": "For general inquiries, call (604)-629-7539 or reach out to <span class='text-lotus-200'>info@phs.ca</span>."
+    },
+    {
+      "siteName": "Insite Supervised Injection Site",
+      "siteUrl": "https://www.phs.ca/program/insite/",
+      "imageUrls": [
+          "/images/destinations/ins-1.jpg",
+          "/images/destinations/ins-2.jpg",
+          "/images/destinations/ins-3.jpg"
+      ],
+      "history": "Opening its doors in 2003, Insite was the first sanctioned supervised drug consumption site in North America (receiving federal exemption from Health Canada) and has saved thousands of lives and millions of healthcare dollars. Operating in partnership with Vancouver Coastal Health, the Insite Supervised Injection Facility is a clean and safe environment for users to consume illicit drugs.",
+      "contactInfo": "For general inquiries, reach out to <span class='text-lotus-200'>info@phs.ca</span>."
+    },
+    {
+      "siteName": "Molson Overdose Prevention Site",
+      "siteUrl": "https://www.phs.ca/program/molson-overdose-prevention-site-mops/",
+      "imageUrls": [
+          "/images/destinations/mops-1.jpg",
+          "/images/destinations/mops-2.jpg"
+      ],
+      "history": "Molson Overdose Prevention Site provides access to a clean, safe space where people who use drugs can safely administer in a culturally-protected, stigma-free environment. Staff are trained to monitor people injecting opiates and stimulants, recognize and reverse overdose, and provide support and coordination of resources such as housing, healthcare and safe supply treatment to participants.",
+      "contactInfo": "For general inquiries, reach out to <span class='text-lotus-200'>info@phs.ca</span>."
+    },
+    {
+      "siteName": "the Osborn Shelter",
+      "siteUrl": "https://www.phs.ca/locations/the-osborn/",
+      "imageUrls": [
+          "/images/destinations/osb-1.jpg",
+          "/images/destinations/osb-2.jpg"
+      ],
+      "history": "The Osborn Shelter is located in Vancouver’s former Army & Navy department store. It provides sleeping pods for privacy and a daytime area where residents can eat, rest and engage with a wide range of services. There are 24-hour supports, safe consumption areas, lockers for personal belongings, and other storage spaces",
+      "contactInfo": "For general inquiries, call (604)-681-2806 or reach out to <span class='text-lotus-200'>info@phs.ca</span>."
+    },
+     {
+      "siteName": "Vancouver Community Fridge Project",
+       "siteUrl": "https://vcfp.square.site/",
+      "imageUrls": [
+          "/images/destinations/vcfp-1.jpg",
+          "/images/destinations/vcfp-2.png",
+          "/images/destinations/vcfp-3.png"
+      ],
+      "history": "The Vancouver Community Fridge Project strives to combat food insecurity by encouraging our communities to take part in laterally-directed mutual aid, starting with providing free, safe, non-policed, accessible and nutritious foods through community fridges and pantries.",
+      "contactInfo": "For more information, please visit <a href='https://vcfp.square.site' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their website</a>. For volunteering opportunities, please go to <a href='https://vcfp.square.site/get-involved' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their Get Involved page</a>."
+    },
+
+    {
+      "siteName": "Mount Pleasant Little Free Library Continuum",
+      "siteUrl": "https://littlefreelibrary.org/",
+      "imageUrls": [
+          "/images/destinations/lib-1.jpg",
+          "/images/destinations/lib-2.jpg",
+          "/images/destinations/lib-3.jpg",
+          "/images/destinations/lib-4.jpg",
+          "/images/destinations/lib-5.jpg"
+      ],
+      "history": "Little Free Library's mission is to be a catalyst for building community, inspiring readers, and expanding book access for all through a global network of volunteer-led Little Free Library book-exchange boxes.",
+      "contactInfo": "For more information, please check out <a href='https://littlefreelibrary.org/contact-us' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their website</a> or call (715)-690-2488."
     }
+
   ]
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -52,16 +53,25 @@ const Footer = () => {
           <div className="max-w-2xl mx-auto glass-morphism rounded-3xl p-8">
             <div className="flex justify-center mb-4">
               <div className="flex items-center space-x-3">
-                <span className="text-3xl animate-pulse">🌱</span>
-                <span className="text-3xl animate-pulse">❤️</span>
-                <span className="text-3xl animate-pulse">🌸</span>
+                <div className="relative w-40 h-40 animate-gentle-bounce" style={{ animationDelay: '0.4s' }}>
+                    <Image
+                        src="/images/LKC.png"
+                        alt="LKC Logo"
+                        layout="fill"
+                        objectFit="contain"
+                    />
+                </div>
               </div>
             </div>
             <p className="text-lg text-charcoal font-body leading-relaxed mb-4">
-              A heartfelt thank you to everyone who contributed and made this drive a success.
+              The most heartfelt and abundant outpouring of gratitude to all who contributed to this donation drive's success.
+              You all have showcased just how much good can be done when people work together and leverage the amazing community we have right here in Vancouver.
             </p>
-            <p className="text-sage-600 font-medium">
-              Together, we're planting seeds of hope and watching compassion bloom.
+            <p className="text-sage-600 font-medium leading-relaxed mb-4">
+              Together, we proved that we can indeed Take the Path of Least Resistance Towards Good.
+            </p>
+            <p className="text-sage-600 font-small leading-relaxed mb-4">
+              Brought to you by the Loving Kindness Collective
             </p>
           </div>
 
@@ -75,7 +85,7 @@ const Footer = () => {
               <div className="w-3 h-3 bg-lotus-400 rounded-full animate-pulse"></div>
             </div>
             <p className="text-sage-600 text-sm">
-              &copy; {new Date().getFullYear()} • Growing communities through giving
+              &copy; {new Date().getFullYear()} • an LKC Initiative
             </p>
           </div>
         </div>

@@ -60,6 +60,20 @@
   .floating-element:nth-child(3n) {
     animation-delay: -4s;
   }
+
+  .flower-shape-1 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+
+  .flower-shape-2 {
+    clip-path: path('M12 0C12 6.6 6.6 12 0 12C-6.6 12 -12 6.6 -12 0C-12 -6.6 -6.6 -12 0 -12C6.6 -12 12 -6.6 12 0Z');
+    transform: scale(0.8); /* Adjust size as needed */
+  }
+
+  .flower-shape-3 {
+    clip-path: path('M 0 8 C 2 3 7 1 12 0 C 17 1 22 3 24 8 C 22 13 17 15 12 16 C 7 15 2 13 0 8 Z');
+    transform: rotate(90deg) scale(0.6); /* Adjust rotation and size */
+  }
 }
 
 @keyframes gradient-shift {
