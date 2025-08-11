@@ -26,7 +26,7 @@ const AboutPage = () => {
               The {"HUMA-N Project's"} goal was to offer a small opportunity for me to do something tangible for my local community. I have always said that if you care about making a difference in the world,
               you have to care equally about how you can make a difference in your immediate environment. On top of that, I was going through an extremely difficult transition in life - my three-year-long relationship had come to a sudden end this year,
               and I had to say goodbye to my home, my cats, and the life I had built up. In the midst of my suffering, there I found my opportunity. The HUMA-N project was a public cry and proclamation: by Helping You, you Help Me, and we Help All of Us.
-              <span class='text-lotus-400'><b>Help U, Me, All of us - Now</b></span>. {"It's"} a challenge to embrace that which makes us truly <span class='text-lotus-400'><b>HUMAN</b></span> - our compassion, our ability to work together, and our collective vision in something greater than any one of us.
+              <span className='text-lotus-400'><b>Help U, Me, All of us - Now</b></span>. {"It's"} a challenge to embrace that which makes us truly <span className='text-lotus-400'><b>HUMAN</b></span> - our compassion, our ability to work together, and our collective vision in something greater than any one of us.
             </p>
 
             <p>
