@@ -164,7 +164,7 @@ export default function Home() {
               Our Community of Generous Donors
             </h2>
             <p className="text-xl text-sage-700 font-body leading-relaxed mb-6">
-              From the bottom of my heart, thanks to each and every one of you. Your contributions aren't just donations - each one of you has sown a seed in hopes of a better tomorrow.
+              From the bottom of my heart, thanks to each and every one of you. Your contributions are not just donations - each one of you has sown a seed in hopes of a better tomorrow.
             </p>
           </div>
 
