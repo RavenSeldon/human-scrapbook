@@ -18,7 +18,7 @@ const ReportPage = () => {
       {/* Page Content */}
       <div className="relative z-10 container mx-auto py-20 px-6">
         <div className="max-w-3xl mx-auto text-center bg-cream/50 p-10 rounded-lg shadow-lg backdrop-blur-sm">
-          <h1 className="text-4xl font-display font-bold text-lotus-600 mb-6">
+          <h1 className="text-4xl font-display font-bold text-lotus-400 mb-6">
             Donation Drive Report
           </h1>
           <p className="text-lg text-sage-800 font-body mb-8">
@@ -30,7 +30,7 @@ const ReportPage = () => {
             download
             className="inline-block bg-primary-green text-forest-600 font-bold py-3 px-8 rounded-full hover:bg-dark-green transition-colors duration-300 shadow-md"
           >
-            Download PDF Report
+            Coming Soon
           </a>
         </div>
       </div>

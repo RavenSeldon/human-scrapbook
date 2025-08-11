@@ -82,7 +82,7 @@
     },
     {
       "name": "Me",
-      "message": "Quick little self feature of me dropping off some donations at the halfway point of the drive! UwU",
+      "message": "Quick little self feature of me dropping off some donations at the halfway point of the drive!",
       "imageUrl": "/images/donators/insite.jpg"
     },
     {
@@ -165,7 +165,7 @@
           "/images/destinations/ugm-4.jpg"
       ],
       "history": "UGM offers care in Vancouver’s Downtown Eastside, across Metro Vancouver and the Fraser Valley, and in Greater Victoria. Our 11 locations include drop-in centres, shelter, live-in recovery programs, social enterprise stores, and more.",
-      "contactInfo": "A huge thanks to our UGM contact, <span class='text-forest-200'>Mark C.</span>, who was able to help facilitate the drop-offs. For general inquiries, please check out <a href='https://ugm.ca' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>UGM's website</a> or call (604)-253-3323. For volunteering opportunities, please check out <a href='https://ugm.ca/volunteer' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>their volunteer page</a>."
+      "contactInfo": "A huge thanks to our UGM contact, <span class='text-forest-200'>Mark C.</span>, who was able to help facilitate the drop-offs. For general inquiries, please check out <a href='https://ugm.ca' target='_blank' rel='noopener noreferrer' class='text-lotus-200 hover:underline'>UGM's website</a> or call (604)-253-3323. For volunteering opportunities, please check out <a href='https://ugm.ca/volunteer' target='_blank' rel='noopener noreferrer' class='text-lotus-200'>their volunteer page</a>."
     },
     {
       "siteName": "First United",

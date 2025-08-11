@@ -15,7 +15,26 @@ const ScrapbookEntry: React.FC<ScrapbookEntryProps> = ({ name, message, imageUrl
 
       <div className="relative nature-card rounded-3xl overflow-hidden hover-organic">
         {/* Image container with organic mask */}
-        <div className="relative h-64 w-full overflow-hidden">
+        {/*
+         * Adjust the sizing of the image container to make photos more prominent
+         * and consistently proportioned across a wide range of screen sizes.
+         *
+         * Previously, the container relied on fixed heights (e.g. `h-72`/`h-80`/`h-96`)
+         * which led to awkward cropping: images would appear overly wide on
+         * ultra‑wide displays and cramped on mobile devices.  To address this
+         * gracefully, we remove the rigid height classes and instead define an
+         * aspect ratio via an inline style.  The `aspectRatio` property tells the
+         * browser to calculate height based on width, keeping the ratio at 4:3
+         * (width to height).  We also include responsive `min-h-*` and a `max-h-*`
+         * constraint to ensure the image isn’t too small on narrow screens or
+         * excessively tall on very wide screens.  These values provide a
+         * reasonable minimum (18–24rem depending on breakpoint) and cap the
+         * maximum height at 32rem.
+         */}
+        <div
+          className="relative w-full overflow-hidden min-h-[18rem] sm:min-h-[20rem] md:min-h-[24rem] max-h-[32rem]"
+          style={{ aspectRatio: '4 / 3' }}
+        >
           <div className="absolute inset-0 bg-gradient-to-t from-sage-900/20 via-transparent to-transparent z-10"></div>
           <Image
             src={imageUrl}
@@ -43,9 +62,7 @@ const ScrapbookEntry: React.FC<ScrapbookEntryProps> = ({ name, message, imageUrl
             {/* Name with botanical accent */}
             <div className="flex items-center space-x-3">
               <div className="w-2 h-2 bg-forest-400 rounded-full animate-pulse"></div>
-              <h3 className="text-2xl font-display font-bold text-charcoal leading-tight">
-                {name}
-              </h3>
+              <h3 className="text-2xl font-display font-bold text-charcoal leading-tight">{name}</h3>
             </div>
 
             {/* Message with elegant styling */}
@@ -66,9 +83,7 @@ const ScrapbookEntry: React.FC<ScrapbookEntryProps> = ({ name, message, imageUrl
               </div>
 
               {/* Gratitude symbol */}
-              <div className="text-lotus-400 text-2xl opacity-80 transform hover:scale-110 transition-transform duration-300">
-                💚
-              </div>
+              <div className="text-lotus-400 text-2xl opacity-80 transform hover:scale-110 transition-transform duration-300"></div>
             </div>
           </div>
         </div>

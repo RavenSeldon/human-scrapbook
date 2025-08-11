@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrapbookEntry from "@/components/ScrapbookEntry";
-import DestinationGallery from "@/components/DestinationGallery";
+// import DestinationGallery from "@/components/DestinationGallery";
+import DestinationsSlideshow from "@/components/DestinationsSlideshow";
 import Image from "next/image"; // This was missing
 import data from "@/data.json";
 
@@ -93,7 +94,7 @@ export default function Home() {
             objectFit="cover"
             className="opacity-20"
           />
-           <Image
+          <Image
             src="/images/super.jpg"
             alt="Decorative background image"
             layout="responsive"
@@ -163,7 +164,7 @@ export default function Home() {
               Our Community of Generous Donors
             </h2>
             <p className="text-xl text-sage-700 font-body leading-relaxed mb-6">
-              Every contribution is a seed sown in hopes of a better tomorrow. All Kingdoms of Heaven belong to you.
+              From the bottom of my heart, thanks to each and every one of you. Your contributions aren't just donations - each one of you has sown a seed in hopes of a better tomorrow.
             </p>
           </div>
 
@@ -186,16 +187,8 @@ export default function Home() {
 
           {/* Destination Gallery Section */}
           <div className="mt-24">
-            {data.destinations.map((dest, index) => (
-              <DestinationGallery
-                key={index}
-                siteName={dest.siteName}
-                siteUrl={dest.siteUrl}
-                imageUrls={dest.imageUrls}
-                history={dest.history}
-                contactInfo={dest.contactInfo}
-              />
-            ))}
+            {/* Render all destinations in a single slideshow to reduce vertical scrolling while keeping the original look and feel. */}
+            <DestinationsSlideshow destinations={data.destinations} />
           </div>
         </div>
       </main>

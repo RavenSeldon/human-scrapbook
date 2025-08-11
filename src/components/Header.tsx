@@ -58,8 +58,11 @@ const Header = () => {
 
           {/* Subtitle with organic styling */}
           <div className="mt-10 p-8 glass-morphism rounded-3xl max-w-2xl mx-auto backdrop-blur-md">
-            <p className="text-lotus-300/70 font-medium text-lg leading-relaxed">
-              Our Community is our Ecology. Thanks to your Giving, we saw just how effective our Community can be!
+            <p className="text-lotus-200/90 font-medium text-lg leading-relaxed">
+              This project started with a simple goal - how much can can we accomplish when we bring a local network of individuals together to do good?
+              It started off with a simple tag line as well - Help You, Help Me, Help All of Us. That, right there, is what HUMA-N Stands for.
+              Help U, Me, All of us, Now. It isn't just a humble request, it was a hypothesis.  Our Community is our Ecology. When we choose to give or to serve, we not only help others;
+              we help ourselves and we contribute to bettering our community as a whole. Each and every one of you who gave a little, a lot, and anywhere in between - you all are shining examples of what community can be!
             </p>
           </div>
         </div>
