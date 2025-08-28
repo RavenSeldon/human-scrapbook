@@ -26,11 +26,11 @@ const ReportPage = () => {
             community, please download our official report. Thank you for your transparency and trust.
           </p>
           <a
-            href="/donation-drive-report.pdf"
+            href="/HUMA-N Donation Drive Report.pdf"
             download
             className="inline-block bg-primary-green text-forest-600 font-bold py-3 px-8 rounded-full hover:bg-dark-green transition-colors duration-300 shadow-md"
           >
-            Coming Soon
+           Download
           </a>
         </div>
       </div>
